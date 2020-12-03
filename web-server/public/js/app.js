@@ -35,7 +35,8 @@ weatherForm.addEventListener ('submit', (e) => {
 				messageTwo.textContent = 'Location: ' + data.location + ', ' +
 					data.forecast.weatherDesc + ', Temperature: ' +
 					data.forecast.temperature + ', Rain: ' +
-					data.forecast.precip;
+					data.forecast.precip + ', uv index: ' +
+					data.forecast.uv_index;
 			}
 		});
 	});

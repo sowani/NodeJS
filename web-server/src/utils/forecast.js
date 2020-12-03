@@ -13,7 +13,8 @@ const forecast = (lat, long, callback) => {
 				weatherDesc: response.body.current.weather_descriptions[0],
 				temperature: response.body.current.temperature,
 				precip: response.body.current.precip,
-				feelslike: response.body.current.feelslike
+				feelslike: response.body.current.feelslike,
+				uv_index: response.body.current.uv_index
 			});
 		}
 	} );
