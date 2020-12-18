@@ -1,0 +1,9 @@
+git init
+vi .gitignore
+atul@atul-HP-Notebook:~/CODE/eclipse-workspace/NodeJS/web-server$ heroku create sowani-weather-server
+Creating ⬢ sowani-weather-server... done
+https://sowani-weather-server.herokuapp.com/ | https://git.heroku.com/sowani-weather-server.git
+git add .
+git commit -am "Initial commit."
+git push heroku master
+

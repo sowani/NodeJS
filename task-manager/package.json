@@ -1,11 +1,11 @@
 {
-  "name": "web-server",
+  "name": "task-manager",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js -e js,hbs",
+	"start": "node src/index.js",
+	"dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,7 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "hbs": "^4.1.1",
-    "postman-request": "^2.88.1-postman.27"
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.4",
+    "validator": "^13.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
